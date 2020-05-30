@@ -1,0 +1,43 @@
+.logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+  }
+
+  .nav {
+    overflow: hidden;
+    background-color: rgb(10, 10, 10);
+  }
+  
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .nav a.active {
+    background-color: #40AFB9;
+    color: white;
+  }
+
+.heroimg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
